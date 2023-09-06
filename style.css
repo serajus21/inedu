@@ -31,13 +31,13 @@ main .contact:hover {background-color: white; cursor: pointer;}
 
 /* responsive design */
 @media (max-width: 740px) {
-    :root {font-size: 13px;}
+    :root {font-size: 12px;}
 }
 @media (max-width: 595px) {
     :root {font-size: 10px;}
 }
 @media (max-width: 455px) {
-    :root {font-size: 9px;}
+    :root {font-size: 8.5px;}
     header .ls_menu .menuBar {position: static; color: white;}
     #hide {display: none;}
     header .nav {
@@ -50,5 +50,6 @@ main .contact:hover {background-color: white; cursor: pointer;}
     :root {font-size: 7px;}
 }
 @media (max-width: 320px) {
-    main .heading {font-size: 3em;}
+    :root {font-size: 5px;}
+    main .heading {font-size: 3.5em;}
 }
