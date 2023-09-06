@@ -16,7 +16,7 @@ header .ls_menu .menuBar {background-color: transparent; border: none; color: tr
 #show {rotate: 90deg; letter-spacing: 0.05em;}
 
 /* main */
-main {max-width: 50em; padding: 5.5em 3.5em;}
+main {max-width: 65em; padding: 5.5em 3.5em;}
 main span {display: block;}
 main .subHeading {font-size: 1em; color: white; font-weight: bold;}
 main .heading {font-size: 4.5em; color: skyblue;}
@@ -50,5 +50,5 @@ main .contact:hover {background-color: white; cursor: pointer;}
     :root {font-size: 7px;}
 }
 @media (max-width: 320px) {
-    main .heading {font-size: 4em;}
+    main .heading {font-size: 3em;}
 }
