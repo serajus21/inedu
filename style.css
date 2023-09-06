@@ -1,0 +1,54 @@
+* {padding: 0; margin: 0; box-sizing: border-box;}
+body {background: linear-gradient(to right, rgba(0, 0, 0, 0.933), rgba(0, 0, 0, 0.682)), url('background.png') no-repeat fixed center; background-size: cover;}
+:root {font-size: 16px;}
+
+/* header */
+header {
+    max-width: 70em; min-height: 5em; margin: auto; display: flex; justify-content: space-between; align-items: center;
+    padding: 0.5em 1em;
+}
+header img {width: 2.5em;}
+header .nav a {color: skyblue; text-decoration: none; font-size: 1em; padding: 0.5em 1em; font-weight: bolder;}
+header .nav a:hover {color: white;}
+header .ls_menu a {color: white; text-decoration: none; padding: 0.3em 1em; margin: 0 0.5em 0 0; border: 0.1em solid;}
+header .ls_menu a:hover {color: skyblue; border-color: skyblue;}
+header .ls_menu .menuBar {background-color: transparent; border: none; color: transparent; font-size: 1.5em; margin: 0 0.3em 0 0; width: 0.8em; cursor: pointer; position: fixed;}
+#show {rotate: 90deg; letter-spacing: 0.05em;}
+
+/* main */
+main {max-width: 50em; padding: 5.5em 3.5em;}
+main span {display: block;}
+main .subHeading {font-size: 1em; color: white; font-weight: bold;}
+main .heading {font-size: 4.5em; color: skyblue;}
+main .description {font-size: 1em; margin: 1em 0;  color: gray; width: 75%;}
+main .contact {font-size: 1em; padding: 0.3em 1em; margin: 1em 0; border: none; background-color: skyblue; color: black; font-weight: bolder; }
+main .contact:hover {background-color: white; cursor: pointer;}
+
+
+
+
+
+
+/* responsive design */
+@media (max-width: 740px) {
+    :root {font-size: 13px;}
+}
+@media (max-width: 595px) {
+    :root {font-size: 10px;}
+}
+@media (max-width: 455px) {
+    :root {font-size: 9px;}
+    header .ls_menu .menuBar {position: static; color: white;}
+    #hide {display: none;}
+    header .nav {
+        position: fixed; top: 5.5em; right: -100%; width: 100%; height: 100vh; background-color: rgba(0, 0, 0, 0.789);
+        display: flex; flex-direction: column; align-items: center; transition: all 250ms ease;
+    }
+    header .nav a {margin: 2em 0 0 0; font-size: 1.5em;}
+}
+@media (max-width: 410px) {
+    :root {font-size: 7px;}
+}
+@media (max-width: 320px) {
+    main .heading {font-size: 4em;}
+}
